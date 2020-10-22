@@ -186,6 +186,14 @@ class Index extends React.Component {
                                     <dt className="product-title">제품명:</dt>
                                     <dd className="product-name">{this.state.itemInfo['제품명']}</dd>
                                 </dl>
+                                <dl>
+                                    <dt className="product-title">제조사:</dt>
+                                    <dd className="product-name">{this.state.itemInfo['제조사']}</dd>
+                                </dl>
+                                <dl>
+                                    <dt className="product-title">유통사:</dt>
+                                    <dd className="product-name">{this.state.itemInfo['유통사']}</dd>
+                                </dl>
                             </> :
                             <>
                                 <div className="message">
